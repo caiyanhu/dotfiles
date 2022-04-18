@@ -1,8 +1,9 @@
-# font family
+/Users/caiyanhu/Documents/# font family
 font_family               JetBrains Mono Medium
 bold_font                 JetBrains Mono Bold
 italic_font               JetBrains Mono Italic
 bold_italic_font          JetBrains Mono Bold Italic
+symbol_map                U+E000-U+F8FF Symbols Nerd Font
 
 
 # font size
@@ -34,4 +35,10 @@ map cmd+shift+f           toggle_fullscreen
 map cmd+enter             toggle_fullscreen
 map cmd+,                 edit_config_file
 map f5                    load_config ~/.config/kitty/kitty.conf
-map cmd+alt+,		  debug_config  
+map cmd+alt+,		          debug_config
+map cmd+c                 copy_to_clipboard
+map cmd+v                 paste_from_clipboard
+copy_on_select            yes
+
+
+include dracula.conf
